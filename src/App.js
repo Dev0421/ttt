@@ -1,7 +1,7 @@
 
 import './App.css';
 import Navbar  from './components/menu/Navbar';
-import { BrowserRouter as Router, Route, Routes, Navigate, useSearchParams} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate} from 'react-router-dom';
 import BuildPage from './components/pages/BuildPage'
 import SpinPage from './components/pages/SlotPage';
 import CropPage from './components/pages/CropPage';
