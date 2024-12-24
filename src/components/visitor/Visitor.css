@@ -1,0 +1,30 @@
+.visitor-text{
+    font-family: "Sheriff Bounce";
+    font-size: 25px;
+    
+}
+.visitor-image{
+    width:100%;
+}
+.visitor {
+    width:100%;
+    position:absolute;
+    z-index:3;
+}
+.visitor-tag {
+    width: 100%;
+    margin-right: 4vw;
+}
+.visitor-counter{
+
+    font-size: 25px;
+    margin-left: 13vw;
+    margin-top: -5vh;
+    color:chocolate;
+}
+.hourly_rate_incre{
+    margin-left: 5vw;
+    color: white;
+    font-size: 21px;
+    text-shadow: 2px 1px black;
+}

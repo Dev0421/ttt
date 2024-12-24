@@ -1,0 +1,10 @@
+.energy-text{
+  width: 100%;
+    position: absolute;
+    z-index: 4;
+    position-area: center;
+    font-size: 2.5vh;
+    color: white;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}

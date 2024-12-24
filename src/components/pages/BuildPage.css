@@ -1,0 +1,73 @@
+.island{
+    max-width: 100%;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+.streamer-container{
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  min-width: 21vh;
+  max-width: 27vh;
+}
+/* .powerplant{
+    
+} */
+
+/* Container for images */
+.image-container {
+    position: relative; /* Set container to relative so child elements can be positioned inside it */
+    width: 100vw;       /* Set width for the container */
+    height: 100vh;      /* Set height for the container */
+  }
+  
+  /* Base styling for all images */
+  .image {
+    position: absolute; /* Absolute positioning to stack images */
+    top: 0;
+    left: 0;
+    width: 100%;        /* Make images stretch to container size */
+    height: 100%;       /* Maintain full height */
+    object-fit: cover;  /* Ensure images cover the container without stretching */
+  }
+  
+  /* Layer 1 (Background Image) */
+  .layer1 {
+    z-index: 1; /* This is the lowest layer (background) */
+  }
+  
+  /* Layer 2 (Middle Image) */
+  .layer2 {
+    z-index: 3;
+    top: 32vh;
+    left: 10vw;
+  }
+  
+  /* Layer 3 (Top Image) */
+  .layer3 {
+    z-index: 2;
+    top: 32vh;
+    left: 55vw;
+
+
+  }
+.level_show{
+  margin: -11vw 32vw;
+  font-size: 2em;
+  z-index:4;
+  color:white;
+  text-shadow: 3px 2px 1px black;
+
+}
+.level_show_2{
+  position: absolute;
+  bottom: 21vh;
+  left: 3vw;
+  font-size: 4em;
+  z-index: 4;
+  color: #fff300;
+  text-shadow: 5px 3px 5px #000000;
+
+}
+

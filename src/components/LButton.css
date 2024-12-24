@@ -1,0 +1,23 @@
+.btn_upgrade{
+  z-index: 4;
+  position: absolute;
+    min-width: 150px;
+}
+
+.icon2{
+  max-width: 30px;
+  margin: 0 6px 0 6px;
+}
+
+.num2{
+  height: 10vw;
+  min-height: 10px;
+  font-size: 6vw;
+}
+.num6{
+  padding: 1vh;
+  margin: -2vh 5vw 0vh;
+  height: 5vw;
+  min-height: 12px;
+  font-size: 5vw;
+}

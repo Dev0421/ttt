@@ -1,0 +1,12 @@
+/* Bottom menu styles */
+.bottom-menu {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 20vh; /* 15% of the viewport height */
+    display: flex;
+    justify-content: space-around; /* Distributes the buttons evenly */
+    align-items: center; /* Centers buttons vertically */
+    background-color: #efefef; /* Background color of the menu */
+    z-index: 100; /* Make sure it stays on top */
+  }

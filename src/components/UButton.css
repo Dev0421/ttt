@@ -1,0 +1,11 @@
+.btn_upgrade{
+  z-index: 4;
+  position: absolute;
+  
+    min-width: 150px;
+}
+
+.icon2{
+  max-width: 30px;
+  margin: 0 6px 0 6px;
+}

@@ -1,0 +1,78 @@
+.bonus-card {
+
+
+}
+.small-default{
+  width: 4vw;
+    margin-right: 4vw;
+}
+.bonus-image {
+  position: absolute;
+  z-index: 5;
+  width: 10vw;
+  vertical-align: middle;
+  margin: 10px 15px;
+}
+.add_coin{
+  position: absolute;
+  word-wrap: break-word;
+  width: 37vw;
+  z-index: 5;    
+  top: 9vw;
+  font-size: 3vw;
+  vertical-align: middle;
+}
+.incre_num {
+  display: inline;
+  padding: 2px;
+  position: absolute;
+}
+.bonus-text {
+  position: absolute;
+  word-wrap: break-word;
+  width: 37vw;
+  z-index: 5;
+  font-size: 3vw;
+  vertical-align: middle;
+  margin: 10px 0px;
+}
+.bonus-ground {
+  position: relative;
+  width: 80vw;
+}
+.bb-images {
+  width:100%;
+
+}
+.bonus-but {
+  position: absolute;
+  top: 4vw;
+  right: 5vw;
+}
+html::-webkit-scrollbar-track {
+  background-color: transparent !important;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+.card {
+  overflow-y: auto; /* Ensures scrolling */
+}
+
+.card::-webkit-scrollbar {
+  width: 8px;
+}
+
+.card::-webkit-scrollbar-track {
+  background: transparent; /* Transparent scrollbar track */
+}
+
+.card::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3); /* Adjust the color and transparency */
+  border-radius: 4px;
+}
+
+/* For Firefox */
+.card {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+}

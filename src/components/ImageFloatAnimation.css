@@ -1,0 +1,40 @@
+.image-float-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  pointer-events: none; /* So the images do not interfere with clicks */
+  overflow: hidden;  
+  z-index:3;
+}
+
+.floating-image {
+  position: absolute;
+  bottom: 0;
+  width: 30px; /* adjust size as needed */
+  height: 30px;
+  animation-name: floatUp;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  opacity: 0; /* Start with 0 opacity for fade-in effect */
+
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0);
+    opacity: 0; /* Initially hidden */
+  }
+  10% {
+    opacity: 0.3; /* Fade in to 30% opacity at 10% progress */
+  }
+  100% {
+    transform: translateY(-100vh);
+    opacity: 0.7; /* End with full visibility and move to the top */
+  }
+}
+
+.float-image{
+  width:5vw;
+  
+}

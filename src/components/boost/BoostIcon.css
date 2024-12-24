@@ -1,0 +1,26 @@
+.boost_gro{
+    position: absolute;
+    z-index: -1;
+    width: 95%;
+    /* height: 44vh; */
+    top: 11vh;
+}
+.boost_missile{
+    position: absolute;
+    z-index: -1;
+    width: 95%;
+    top: 18vh;
+}
+.img_gro{
+    width: 70vw;
+    height: 61vh;
+}
+.img_missile{
+    width: 37vw;
+}
+.content_gro{
+    margin: 16vh 2vw;
+    display:flex;
+    justify-content: center;
+    width: 66vw;
+}

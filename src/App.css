@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.index-coin{
+  z-index: 2;
+  position: absolute;
+  width: 100vw;
+  top: 7.3vh;
+  left: 6vw;
+}
+.index-boost{   
+   position: absolute;
+  z-index: 3;
+  /* float: right; */
+  /* text-align: right; */
+  top: 16vh;
+  right: 5vw;
+}
+.index-shop{   
+   position: absolute;
+  z-index: 3;
+  /* float: right; */
+  /* text-align: right; */
+  top: 16vh;
+  left: 5vw;
+}
+.index-volume{
+  z-index: 3;
+  position: absolute;
+  top: 1vh;
+  left: 86vw;
+}
+.index-visitor{
+  position: absolute;
+  width: 100vw;
+  top: 7vh;
+  left: 54vw;
+}
+@font-face {
+  font-family: 'Sheriff Bounce';
+  src: url('./fonts/SheriffBounce.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Interesting';
+  src: url('./fonts/ChalenExtruderightDemo-4nE3B.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

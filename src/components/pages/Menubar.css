@@ -1,0 +1,54 @@
+
+.menu-coin{
+  z-index: 2;
+  position: absolute;
+  width: 40%;
+  top: 7.3vh;
+  left: 6vw;
+}
+.menu-boost{   
+   position: absolute;
+  z-index: 3;
+  /* float: right; */
+  /* text-align: right; */
+  top: 16vh;
+  right: 5vw;
+}
+.menu-shop{   
+   position: absolute;
+  z-index: 3;
+  /* float: right; */
+  /* text-align: right; */
+  top: 16vh;
+  left: 5vw;
+}
+.menu-volume{
+  z-index: 3;
+  position: absolute;
+  top: 1vh;
+  right: 1vw;
+}
+.menu-alert{
+  z-index: 3;
+  position: absolute;
+  top: 30vh;
+  left: 40vw;
+}
+.menu-visitor{
+  position: absolute;
+  width: 40%;
+  top: 7vh;
+  left: 54vw;
+}
+.menu-energy{   
+  position: absolute;   
+ z-index: 3;
+ /* float: right; */
+ /* text-align: right; */
+ top: 76vh;
+ left: 35vw;
+ box-shadow: 0 4px 5px rgb(0 0 0 / 94%);
+ border-radius: 20px;   
+  width: 30%;
+  min-width:100px;
+}
