@@ -17,11 +17,25 @@ function App() {
   const [error, setError] = useState('');
   const [initVisitor, setInitVisitor] = useState(0);
   const [initEnergy, setInitEnergy] = useState(0);
-  // const [telegramId, setTelegramId] = useState(241);
+  const [telegramId, setTelegramId] = useState(241);
   // const [searchParams, setSearchParams] = useSearchParams();
   // const user_id = searchParams.get('user_id');
   // setTelegramId(user_id);
-  const telegramId = 241;
+  // const telegramId = 241;
+
+  useEffect(() => {
+    const fetchTelegramId = async () => {
+      try {
+        const response = await axios.get(`${apiUrl}/api/user/telegramId`);
+        setTelegramId(response.data.telegramId); // Assuming the response contains telegramId
+      } catch (err) {
+        setError('Error fetching telegram ID');
+      }
+    };
+
+    fetchTelegramId();
+  }, []);
+
   const apiUrl = process.env.REACT_APP_API_BASE_URL;
   const handleButtonClick = async (upgrade_obj, upgrade_user, upgrade_type) => {
     try {
@@ -41,7 +55,7 @@ function App() {
   useEffect(() => {
     const fetchUser = async () => {
         try {
-            const response = await axios.get(`${apiUrl}/api/user/${telegramId}`);
+            const response = await axios.get(`http://192.168.10.48:8081/api/user/241`);
             console.log(response.data);
             setUser(response.data);
             const now = new Date();
